@@ -37,7 +37,4 @@ app.get('/film-by-categories/:names', function(req, res){
     })
 })
 
-app.get('/',function (req,res){
-    res.send('hellods world')
-});
 app.listen(3000);
